@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced-search</title>
+    <link rel="stylesheet" href="advanced.css" />
+  </head>
+  <body>
+    <div class="header-container">
+      <img class="google-logo" src="google_logo.svg" alt="google_logo" />
+      <div>
+        <a href="imgs.html">Image Search</a>
+        <a href="index.html">Google Search</a>
+      </div>
+    </div>
+    <div class="title-container">
+      <p class="a-title">Advanced Search</p>
+    </div>
+
+    <main>
+      <form class="first-part" action="https://www.google.com/search">
+        <div>
+          <span>Find pages with...</span>
+          <span style="font-size: 14px; margin-left: 630px"
+            >To do this in the search box.</span
+          >
+        </div>
+        <div class="subparts-container">
+          <label class="label" for="all-words">all these words:</label>
+
+          <input type="text" id="all-words" name="as_q" />
+          <span class="todo"
+            >Type the important words: tri-colour rat terrier</span
+          >
+        </div>
+        <div class="subparts-container">
+          <label class="label" for="exact">this exact word or phrase:</label>
+
+          <input type="text" id="exact" name="as_epq" />
+          <span class="todo">Put exact words in quotes: "rat terrier"</span>
+        </div>
+        <div class="subparts-container">
+          <label class="label" for="any-words">any of these words:</label>
+
+          <input type="text" id="any-words" name="as_oq" />
+          <span class="todo"
+            >Type OR between all the words you want: miniature OR standard</span
+          >
+        </div>
+        <div class="subparts-container">
+          <label class="label" for="none-words">none of these words:</label>
+
+          <input type="text" id="none" name="as_eq" />
+          <span class="todo"
+            >Put a minus sign just before words that you don't want: -rodent,
+            -"Jack Russell"</span
+          >
+        </div>
+
+        <input class="search-button" type="submit" value="Advanced Search" />
+      </form>
+
+      <div></div>
+    </main>
+  </body>
+</html>

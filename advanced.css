@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: sans-serif;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+.header-container div a {
+  display: inline-block;
+  color: black;
+  font-size: 15px;
+  text-transform: capitalize;
+  font-style: normal;
+  text-decoration: none;
+  margin: 10px 0;
+  margin-right: 20px;
+}
+.google-logo {
+  width: 84px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.title-container {
+  border-bottom: 1px solid #ddd;
+}
+
+.a-title {
+  color: red;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-left: 60px;
+  padding-bottom: 20px;
+}
+
+.first-part {
+  padding-top: 40px;
+  padding-left: 40px;
+  margin-right: 300px;
+  position: relative;
+}
+.first-part div {
+  margin-bottom: 25px;
+}
+.first-part div input {
+  width: 500px;
+  height: 30px;
+  margin-left: 40px;
+}
+
+.subparts-container {
+  display: flex;
+  align-items: center;
+}
+
+.label {
+  width: 200px;
+}
+.todo {
+  font-size: 10px;
+  color: gray;
+  margin-left: 10px;
+}
+.search-button {
+  padding: 7px;
+  background-color: blue;
+  color: white;
+  border: 0;
+  border-radius: 2px;
+  position: absolute;
+  bottom: -45px;
+  right: 455px;
+}
+.search-button:hover {
+  background-color: rgba(0, 0, 255, 0.8);
+}
